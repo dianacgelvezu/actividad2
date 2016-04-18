@@ -1,0 +1,328 @@
+/*
+font-family: 'Indie Flower', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Chewy', cursive;
+font-family: 'Architects Daughter', cursive;
+*/
+
+#contenido {
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+/*ETIQUETAS*/
+
+body{
+	background-image: url(../img/cat_paws_by_anchica.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	font-family: 'Chewy', cursive; 
+	color: sienna;
+	margin-left: 10px;
+	font-size: 70px;
+	text-align: center; 
+}
+
+h2{
+	font-family: 'Dancing Script', cursive;
+	color: red;
+	margin-left: 10px;
+	font-size: 40px;
+	font-weight: bolder;	
+	text-align: center; 
+}
+
+h3{
+	font-family: 'Indie Flower', cursive;
+	color: sienna;
+	font-size: 20px;
+	text-align: center; 
+}
+
+h4{
+	font-family: 'Indie Flower', cursive;
+	color: red;
+	font-size: 25px;
+	text-align: center; 
+}
+
+header{
+	width: 1000px;
+	height: 120px;
+	border-radius: 10px;
+	margin: 3px;
+	background: rgba(255,255,255,3,5);
+}
+
+nav{
+	width: 1000px;
+	height: 60px;
+	background:  lightskyblue;
+	border-radius: 10px;
+}
+
+ul{
+	margin: auto;
+	padding-top: 4px; 
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	font-family: 'Chewy', cursive; 
+	color: white;
+	font-size: 18px;
+	width: 125px;
+	text-align: center;
+	padding: 10px;
+	background: navy;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+}
+
+section{
+	width: 700px;
+	background: rgba(255,255,255,3,5);
+	height: 600px;
+	float: left; 
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+aside{
+	width: 280px;
+	background: rgba(255,255,255,3,5);
+	height: 600px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+footer{
+	width: 1000px;
+	height: 70px;
+	background: rgba(255,255,255,3,5);
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+p{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px; 
+	text-align: justify;
+}
+
+figure{
+	text-align: center;	
+}
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow:0 0 20px white;}
+.menu:active{color: white; text-decoration: none;}
+
+/*  Opcion para ser responsive */
+
+@media screen and (max-width: 31.5em) {
+	.contnedor {
+		padding: 10px 10px 50px 10px;
+	}
+	.contnedor li {
+		width: 100%;
+		min-width: 300px;
+	}
+}
+@media screen and (max-width: 25em) {
+
+	.np-icon span {
+		display: none;
+	}
+
+}
+
+
+
+.contnedor {
+	padding: 20px 20px 100px 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.contnedor li {
+	display: inline-block;
+	width: 363px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
+
+.contnedor figure {
+	margin: 0;
+	position: relative;
+}
+
+.contnedor figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+
+.contnedor figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #666666;
+	color: #ed4e6e;
+}
+
+
+figcaption span {
+    color: #DDDDDD;
+    display: block;
+    font-size: 13px;
+    margin: 12px 0;
+}
+
+.contnedor figcaption h3 {
+    border-bottom: 1px solid #777777;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0 0 5px;
+}
+
+
+.contnedor figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #31a7c4;
+	color: #fff;
+
+}
+
+
+/* Caption animación*/
+
+
+.caption li {
+}
+
+.caption figure {
+}
+
+.caption figure > div {
+	overflow: hidden;
+}
+
+.caption figure img {
+}
+
+.caption figure:hover img
+{
+	cursor: pointer;
+}
+
+
+
+.caption figcaption {
+	height: 100%;
+	width: 50%;
+	opacity: 0;
+}
+
+
+.caption figure:hover figcaption{
+	opacity: 1;
+}
+
+
+
+.caption figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+
+
+.btn_hover:hover {
+	background: #3fc7e8;
+}
+
+#lista2 {
+    counter-reset: li; 
+    list-style: none; 
+    *list-style: decimal; 
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+#lista2 ol {
+    margin: 0 0 0 2em; 
+}
+
+#lista2 li{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;   
+}
+
+#lista2 li:hover{
+    background: #eee;
+}
+
+#lista2 li:hover:before{
+    transform: rotate(360deg);  
+}
+
+#lista2 li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}

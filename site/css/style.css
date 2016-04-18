@@ -1,0 +1,141 @@
+/*
+font-family: 'Indie Flower', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Chewy', cursive;
+font-family: 'Architects Daughter', cursive;
+*/
+
+#contenido {
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+/*ETIQUETAS*/
+
+body{
+	background-image: url(../img/huellas.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	font-family: 'Chewy', cursive; 
+	color: sienna;
+	margin-left: 10px;
+	font-size: 70px;
+	text-align: center; 
+}
+
+h2{
+	font-family: 'Dancing Script', cursive;
+	color: red;
+	margin-left: 10px;
+	font-size: 40px;
+	font-weight: bolder;	
+	text-align: center; 
+}
+
+h3{
+	font-family: 'Indie Flower', cursive;
+	color: sienna;
+	font-size: 20px;
+	text-align: center; 
+}
+
+h4{
+	font-family: 'Indie Flower', cursive;
+	color: red;
+	font-size: 25px;
+	text-align: center; 
+}
+
+header{
+	width: 1000px;
+	height: 120px;
+	border-radius: 10px;
+	margin: 3px;
+	background: rgba(255,255,255,3,5);
+}
+
+nav{
+	width: 1000px;
+	height: 60px;
+	background:  lightskyblue;
+	border-radius: 10px;
+}
+
+ul{
+	margin: auto;
+	padding-top: 4px; 
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	font-family: 'Chewy', cursive; 
+	color: white;
+	font-size: 18px;
+	width: 125px;
+	text-align: center;
+	padding: 10px;
+	background: navy;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+}
+
+section{
+	width: 700px;
+	background: rgba(255,255,255,3,5);
+	height: 600px;
+	float: left; 
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+aside{
+	width: 280px;
+	background: rgba(255,255,255,3,5);
+	height: 600px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+footer{
+	width: 1000px;
+	height: 70px;
+	background: rgba(255,255,255,3,5);
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+p{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px; 
+	text-align: justify;
+}
+
+figure{
+	text-align: center;	
+}
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow:0 0 20px white;}
+.menu:active{color: white; text-decoration: none;}
+
